@@ -1,0 +1,10 @@
+*.iml
+.gradle
+/local.properties
+.DS_Store
+/build
+/captures
+.idea
+/BQMM_Lib/build
+/BQMM_Lib/.idea
+/BQMM_Lib/.settings

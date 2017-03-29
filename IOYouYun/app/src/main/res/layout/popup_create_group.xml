@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_create_group"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="@string/select_group_type"
+        android:textColor="@color/color_000000" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_c0c0c0" />
+
+    <TextView
+        android:id="@+id/tv_group"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/listitem_item_click_selector"
+        android:gravity="center"
+        android:text="@string/bottom_group"
+        android:textColor="@color/color_000000" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_e6e6e6" />
+
+    <TextView
+        android:id="@+id/tv_chat_room"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/listitem_item_click_selector"
+        android:gravity="center"
+        android:text="@string/chat_room"
+        android:textColor="@color/color_000000" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_e6e6e6" />
+
+    <TextView
+        android:id="@+id/tv_cancle"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/listitem_item_click_selector"
+        android:gravity="center"
+        android:text="@string/string_cancle"
+        android:textColor="@color/color_000000" />
+
+</LinearLayout>
